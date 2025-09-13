@@ -1,0 +1,5 @@
+# ESP32 LED Tester Simulator Requirements
+# No external dependencies required - uses only Python standard library
+# Python 3.6+ required for f-strings and other modern features
+
+
