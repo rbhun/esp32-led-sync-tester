@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "includePath": [
+                "${workspaceFolder}/.pio/libdeps/esp32dev/**",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/include"
+            ],
+            "defines": [
+                "ARDUINO=10819",
+                "ARDUINO_ESP32_DEV",
+                "ARDUINO_ARCH_ESP32",
+                "ESP32",
+                "CORE_DEBUG_LEVEL=0"
+            ],
+            "compilerPath": "~/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-xtensa"
+        }
+    ],
+    "version": 4
+}
